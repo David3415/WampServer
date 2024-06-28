@@ -37,11 +37,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        // enableEdgeToEdge()
-        /* CoroutineScope(Dispatchers.IO).launch {
-             val list = mainApi.getAllUsers()
-             list.forEach { user -> Log.d("MyLog", "User: ${user.name}") }
-         }*/
+
     }
 }
 
